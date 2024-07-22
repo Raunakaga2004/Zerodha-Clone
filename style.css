@@ -1,0 +1,329 @@
+*{
+    margin : 0;
+}
+img{
+    padding-top: 0;
+    padding-left: 0;
+    width : 180px;
+}
+nav{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    color: black;
+    height: 68px;
+    border-bottom: solid 2px #f2f2f2cd;
+    position: fixed;
+    box-shadow:#222222 ;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    list-style: none;
+}
+/* 787878 */
+/* 4F8DD6 */
+ul>li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:450;
+    background: transparent;
+    /* margin : 10px; */
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.logo a{
+    padding-left: 16px;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+}
+li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#787878;
+    background: transparent;
+    padding-bottom: 5px;
+}
+li>a:hover{
+    color:#4F8DD6;
+}
+.logo{
+    padding-top:10px;
+    background: transparent;
+}
+#bars{
+    /* padding-top : 5px; */
+    align-self: center;
+    font-size: 27px;
+    color : #787878;
+}
+.dropdown{
+    background: transparent;
+    border:none;
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+
+/* header */
+.header{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 250px;
+}
+.header img{
+    height: 80%;
+    max-width: 950px;
+    width:80%;
+    padding-bottom: 50px;
+}
+.header h1{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 20px;
+}
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color : #424242;
+    text-align: center;
+}
+
+.header button{
+    height: 65px;
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    background: #387ED1;
+    font-size: 25px;
+    font-weight: 530;
+    color : whitesmoke
+}
+.header button:hover{
+    background: #222222;
+    cursor: pointer ;
+}
+
+/* header end */
+
+.largest-broker {
+    display: flex;
+    width: 50% 50%;
+    justify-content:space-around;
+    gap : 8vw;
+    align-items: center;
+    margin: 6vw;
+    margin-bottom : 250px;
+
+}
+.content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.content .heading h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-left: 3rem;
+    margin-bottom: 30px;
+}
+.content .para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 22px;
+    padding-left : 3rem;
+    margin-bottom: 3vw;
+    line-height: 40px;;
+}
+.content .points {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 22px;
+}
+.points{
+    display: flex;
+    flex-direction: row;
+}
+.points ul{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 40px;
+    margin-bottom: 3rem;
+}
+.side-image{
+    height: auto;
+    width:35vw;
+    max-height: 400px;
+}
+.press{
+    padding-left: 3rem;
+    width: 90%;
+}
+.press:hover{
+    filter:opacity(0.5);
+}
+
+/* ecosystem section */
+.ecosystem{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin : 6vw;
+    margin-bottom: 250px;
+}
+.ecosystem .image .some-links{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.ecosystem .content .heading{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom : 3vw
+}
+
+.ecosystem .content{
+    height: 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ecosystem .content .sub-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.ecosystem .content .sub-content .subhead{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom : 20px;
+}
+.ecosystem .content .sub-content .subhead-content a{
+    text-decoration: none;
+    color : #387ED1;
+}
+.ecosystem .content .sub-content .subhead-content a:hover{
+    text-decoration: none;
+    color : black;
+}
+
+.ecosystem .image .right-side-image{
+    width: 50vw;
+}
+
+.link a{
+    text-decoration: none;
+    color : #387ED1;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link a:hover{
+    color : black;
+}
+
+.link a:hover .fa-solid{
+    color : black;
+}
+
+.fa-solid{
+    font-size:medium;
+    color : #387ED1;
+}
+
+/* pricing section */
+.pricing{
+    display: flex;
+    margin : 6vw;
+    justify-content: space-evenly;
+
+    gap : 80px;
+}
+.pricing .left-section{
+    width: 50%;
+}
+.pricing .left-section .heading h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom : 3vw;
+}
+
+.pricing .left-section .content{
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom : 30px;
+}
+
+.pricing .right-section{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width : 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding : 25px;
+    border : solid #4242423b 1px;
+    border-radius: 5px;
+    align-content: center;
+    width : 50%;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding : 25px;
+    border : solid #4242423b 1px;
+    border-left: none;
+    border-radius: 5px;
+    align-content: center;
+    width : 50%;
+}
+.box-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+.box-content{
+    font-size: 20px;
+}
+
+/* education section */
+.education{
+    display: flex;
+}
+.education .image{
+    width : 100%;
+}
+.education img{
+    width : 100%;
+}
+
+/* footer */
+footer{
+    background: #FBFBFB;
+}
